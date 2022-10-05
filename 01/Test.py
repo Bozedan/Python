@@ -20,7 +20,7 @@ class Test(unittest.TestCase):
         self.assertEqual(self.game.show_board(), print(text_board))
 
     def test_check_winner(self):
-        self.assertEqual(self.game.check_winner(0, [2, 2]), True)
+        self.assertEqual(self.game.check_winner(0, [2, 2]), True) #//
 
     def test_turn(self):
         self.game.board = [['X', '*', '*'], ['*', '*', 'X'], ['*', '*', 'X']]
